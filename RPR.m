@@ -19,8 +19,8 @@ function RPR()
     xM = (l1 + q2) .* cos(q1) + l2 * cos(q1 + q3) ;
     yM = (l1 + q2) .* sin(q1) + l2 * sin(q1 + q3) ;
     plot(xM(:),yM(:),'.')
-    xL = xlim; %all values of x 
-    yL = ylim; % all values of y 
-    line(xL, [0 0],'color','k','linewidth',1) %Draw x-axis
-    line([0 0], yL,'color','k','linewidth',1) %Draw y-axis
+   % xL = xlim; %all values of x 
+    %yL = ylim; % all values of y 
+    %line(xL, [0 0],'color','k','linewidth',1) %Draw x-axis
+    %line([0 0], yL,'color','k','linewidth',1) %Draw y-axis
 end

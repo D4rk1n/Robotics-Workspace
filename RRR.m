@@ -12,7 +12,7 @@ q2_max = input('q2_max: ');
 q3_min = input('q3_min: ');
 q3_max = input('q3_max: ');
 
-%Transform qs into radians
+%Make it 200 value & Transform qs into radians
 t1=linspace(q1_min, q1_max, 200)*pi/180;
 t2=linspace(q2_min, q2_max, 200)*pi/180;
 t3=linspace(q3_min, q3_max, 200)*pi/180;
